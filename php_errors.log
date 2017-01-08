@@ -1,0 +1,15 @@
+[07-Jan-2017 22:53:19 UTC] PHP Warning:  move_uploaded_file(./src/o8uiw1s01ht774ha2r1.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/uploda/index.php on line 328
+[07-Jan-2017 22:53:19 UTC] PHP Stack trace:
+[07-Jan-2017 22:53:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/uploda/index.php:0
+[07-Jan-2017 22:53:19 UTC] PHP   2. CF_class->file_up() /home/ubuntu/workspace/uploda/index.php:541
+[07-Jan-2017 22:53:19 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/uploda/index.php:328
+[07-Jan-2017 22:53:19 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpRWnGlD' to './src/o8uiw1s01ht774ha2r1.jpg' in /home/ubuntu/workspace/uploda/index.php on line 328
+[07-Jan-2017 22:53:19 UTC] PHP Stack trace:
+[07-Jan-2017 22:53:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/uploda/index.php:0
+[07-Jan-2017 22:53:19 UTC] PHP   2. CF_class->file_up() /home/ubuntu/workspace/uploda/index.php:541
+[07-Jan-2017 22:53:19 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/uploda/index.php:328
+[07-Jan-2017 23:26:17 UTC] PHP Warning:  readfile(./src/o8uiw1s01ht774ha2r1.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/uploda/index.php on line 421
+[07-Jan-2017 23:26:17 UTC] PHP Stack trace:
+[07-Jan-2017 23:26:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/uploda/index.php:0
+[07-Jan-2017 23:26:17 UTC] PHP   2. CF_class->dl_do() /home/ubuntu/workspace/uploda/index.php:532
+[07-Jan-2017 23:26:17 UTC] PHP   3. readfile() /home/ubuntu/workspace/uploda/index.php:421
